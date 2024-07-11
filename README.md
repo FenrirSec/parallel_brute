@@ -1,23 +1,36 @@
-# Parallel Brute
+# Parallel Brute 🚀
 
-  Short Python script for online and offline brute-force attacks
+A powerful Python script for performing online and offline brute-force attacks.
 
-### Usage
+## Usage 📋
 
-`# python brute.py`
+To run the script, simply execute:
 
-#### Initialisation
+```bash
+python brute.py
+```
 
-- Tweak the options in brute.py
-- Fill the "check_password" function in brute.py with whatever request and verifications you need
+### Initialization ⚙️
 
-When you're done you can build your dictionary file using :
+1. **Tweak the options** in `brute.py` to fit your requirements.
+2. **Customize the `check_password` function** in `brute.py` with the specific requests and verifications you need.
 
-`# python brute.py`
+Once configured, you can build your dictionary file by running:
 
-#### Usage
+```bash
+python brute.py
+```
 
-> Once you ran the script a first time to generate your dictionary, you can start the script again, which will start the attack :
+### Performing an Attack 🎯
 
-`# python brute.py`
+After generating your dictionary, start the brute-force attack by running the script again:
 
+```bash
+python brute.py
+```
+
+And you're all set to launch your brute-force attack!
+
+---
+
+Happy hacking! 🔓
